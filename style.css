@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(./img/WhatsApp\ Image\ 2023-09-30\ at\ 18.50.19.jpeg);
+}
+
+#container {
+    width: 1240px;
+    height: 1036px;
+    background-color: rgba(0, 0, 0, 0.3);
+    margin-top: 30px;
+    margin: auto;
+}
+
+#title{
+    font-family: 'Bowlby One SC', cursive;
+    font-size: 50px;
+    letter-spacing: 0.05cm;
+    color: #ffffff;
+}
