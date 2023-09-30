@@ -5,12 +5,17 @@
 
 body{
     background-image: url(./img/WhatsApp\ Image\ 2023-09-30\ at\ 18.50.19.jpeg);
+    color: #ffffff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 
 #container {
     width: 1240px;
-    height: 1036px;
-    background-color: rgba(0, 0, 0, 0.3);
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
     margin-top: 30px;
     margin: auto;
 }
@@ -20,4 +25,68 @@ body{
     font-size: 50px;
     letter-spacing: 0.05cm;
     color: #ffffff;
+}
+
+span{
+    color: #ff0000;
+}
+
+
+#description {
+    font-family: 'Sorts Mill Goudy', serif;
+}
+
+#header {
+    text-align: center;
+}
+
+#survey-form-container {
+    width: 500px;
+    height: 800px;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: auto;
+    padding: 30px 40px;
+    margin-bottom: 30px;
+}
+
+
+#name, #age, #email, #dropdown, #feedback {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+
+}
+
+.input-box {
+    margin-top: 20px;
+}
+
+#checkbox, #radio {
+    margin-top: 40px;
+}
+
+#feedback {
+    resize: none;
+    height: 91px;
+    
+}
+
+#form-button {
+    width: 160px;
+    height: 45px;
+    border-radius: 40px;
+    border: none;
+    color: white;
+    background-color: #ff0000;
+    cursor: pointer;
+}
+
+
+#form-button:hover{
+    background-color: #fff;
+    color: red;
+}
+
+.form-submit {
+    text-align: center;
 }
